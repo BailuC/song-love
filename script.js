@@ -19,11 +19,11 @@ let clickCount = 0; // 记录点击 No 的次数
 
 // No 按钮的文字变化
 const noTexts = [
-  "？你认真的吗…",
-  "要不再想想？",
-  "不许选这个！ ",
+  "婧宝？你认真的吗…",
+  "婧宝要不再想想？",
+  "婧宝不许选这个！ ",
   "我会很伤心…",
-  "不行:(",
+  "婧宝不行:(",
 ];
 
 // No 按钮点击事件
@@ -57,7 +57,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `婧宝!!!喜欢你!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
